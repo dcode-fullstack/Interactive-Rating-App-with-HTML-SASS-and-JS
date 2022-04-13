@@ -4,7 +4,7 @@ const content = document.querySelectorAll('.content');
 
 for (let i = 0; i < list.length; i++) {
 
-    list[i].addEventListener("click", function (e) {
+    list[i].addEventListener("click", function () {
         removeSelect();
         list[i].classList.add('active');
         for (let x = 0; x < content.length; x++) {
